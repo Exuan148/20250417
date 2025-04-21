@@ -7,7 +7,6 @@ X = np.array([[1], [2], [3]])
 y = np.array([2, 4, 6])
 
 model = LinearRegression().fit(X, y)
-time.sleep(5)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--arg1")
